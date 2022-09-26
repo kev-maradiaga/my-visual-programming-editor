@@ -1,0 +1,46 @@
+{
+  "name": "my-visual-programming-editor",
+  "version": "1.0.0",
+  "description": "A simple visual programming editor!",
+  "main": "server/app.js",
+  "scripts": {
+    "build": "rimraf client/dist && webpack",
+    "start": "node server/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kev-maradiaga/my-visual-programming-editor.git"
+  },
+  "author": "Kevin Maradiaga",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kev-maradiaga/my-visual-programming-editor/issues"
+  },
+  "homepage": "https://github.com/kev-maradiaga/my-visual-programming-editor#readme",
+  "devDependencies": {
+    "@babel/core": "^7.19.1",
+    "@babel/preset-env": "^7.19.1",
+    "babel-loader": "^8.2.5",
+    "eslint": "^8.24.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-vue": "^9.5.1",
+    "html-webpack-plugin": "^5.5.0",
+    "prettier": "2.7.1",
+    "pug": "^3.0.2",
+    "pug-plain-loader": "^1.1.0",
+    "vue-loader": "^17.0.0",
+    "vue-template-compiler": "^2.7.10",
+    "webpack": "^5.74.0",
+    "webpack-cli": "^4.10.0"
+  },
+  "dependencies": {
+    "css-loader": "^6.7.1",
+    "express": "^4.18.1",
+    "morgan": "^1.10.0",
+    "rimraf": "^3.0.2",
+    "vue": "^3.2.39",
+    "vue-style-loader": "^4.1.3"
+  }
+}
