@@ -22,6 +22,7 @@ export default {
   transform: translate(-50%, -50%);
   border: solid 1px black;
   border-radius: 10px;
+  background-color: white;
   padding: 5px;
   display: flex;
   flex-direction: column;
